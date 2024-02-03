@@ -12,26 +12,23 @@
 			font-family: 'Outfit', sans-serif;
 		}
 		span{
-			color: red;
-			font-weight: ;
-			background: linear-gradient(to right, #b6fffa, #687eff);
+			background: linear-gradient(23deg, #b6fffa, #687eff);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
-			animation: animate infinte 5s;
-			
 		}
 		span::before{
-				content: "Hey!";
-			}
+			animation: animate infinite 5s;
+			content: "Hey!";
+		}
 		@keyframes animate{
-				1%{
+				0%{
 					content: "Hey!";
 				}
 				25%{
 					content: "Oye!";
 				}
 				50%{
-					content: "Ej!"; /* font doesn't support cyrillic, sorry */
+					content: "Ej!";
 				}
 				100%{
 					content: "Hoi!";
